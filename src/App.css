@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  background-image: url("assets/bg.webp");
+  background-repeat: repeat;
+  background-size: 50%;
+  background-attachment: fixed;
+  color:antiquewhite;
+  font-family: minecraft;
+}

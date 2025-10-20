@@ -1,0 +1,43 @@
+div.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    position: fixed;
+}
+
+li {
+    background-image: url("../assets/button.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 5px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    flex: 1;
+}
+
+li:hover {
+    background-image: url("../assets/button_on.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

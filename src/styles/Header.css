@@ -1,0 +1,21 @@
+p.header {
+    font-size: 500%;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.3);
+}
+
+#header-top {
+    padding-top:15rem;
+}
+
+#header-bottom {
+    padding-bottom:3rem;
+}
+
+img.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20rem;
+}
