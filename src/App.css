@@ -5,5 +5,12 @@ body {
   background-size: 50%;
   background-attachment: fixed;
   color:antiquewhite;
-  font-family: minecraft;
+  font-family: 'minecraft';
+}
+
+@font-face {
+      font-family: 'minecraft';
+      src: url('./assets/minecraft.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
 }

@@ -8,7 +8,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 50%;
-    font-size: 25px;
+    font-size: large;
     display: flex;
     justify-content: flex-end;
     margin: auto;
@@ -19,7 +19,8 @@ li {
     background-image: url("../assets/button.png");
     background-repeat: no-repeat;
     background-size:contain;
-    padding: 5px;
+    background-position: 50%;
+    padding: 15px;
     color: rgb(200, 200, 200);
     text-align: center;
     flex: 1;
@@ -29,6 +30,7 @@ li:hover {
     background-image: url("../assets/button_on.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 50%;
     color: white;
 }
 
